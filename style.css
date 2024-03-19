@@ -1,0 +1,205 @@
+@keyframes scroll {
+    0%{
+        margin-left: -25%;
+    }
+    50%{
+        margin-left:28%;
+    }
+    100%{
+        margin-left: -95%;
+    }
+}
+
+body{
+    height:2200vh;
+    background-color:white;
+    /* padding:10px; */
+}
+
+.mainNav{
+    border:solid black;
+    border-width:.2px;
+    width:100%;
+    align-items:center;
+    display:flex;
+    justify-content: space-between;
+}
+
+.smNav{
+    border:solid black;
+    height:42px;
+    align-items: center;
+    border-width:.2px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.mainVid{
+    border:double black;
+    border-width:10px;
+    /* margin-top:4em; */
+}
+.logo{
+    border:solid black;
+    height:50px;
+    width:80px;
+    /* margin-left:5%; */
+    
+}
+.mainSplash{
+    width:100%;
+}
+.sectionContainer{
+    border:solid black;
+}
+.selectBtn{
+    font-size:18px;
+    font-family:abril fatface;
+    padding-left:10px;
+    padding-right:10px;
+}
+.scrollMsg{
+    /* animation: scroll 20s ease-in-out infinite; */
+   display: flex;
+   justify-content: space-around;
+    width:100%;
+  
+}
+.motto{
+    font-family: cinzel;
+    color:red;
+    text-align:center;
+    margin-top:15px;
+}
+.motto2{
+    font-family: cinzel;
+    color:green;
+    text-align:center;
+    margin-top:15px;
+}
+.motto3{
+    font-family: cinzel;
+    color:black;
+    text-align:center;
+    margin-top:15px;
+}
+.exposeTitle{
+    font-family: cinzel;
+    text-align:center;
+    font-size:15px;
+    color:black;
+}
+.bafIntro{
+    width:50%;
+    margin:1em;
+    text-align: right;
+}
+.mantra{
+    width:100%;
+    margin:1em;
+}
+.mt1{
+    font-family: Abril fatface;
+    /* animation: bounce 1s ease-out infinite; */
+    font-size: 47px;
+    text-align: center;
+}
+.left{
+    /* border:solid grey; */
+    width:40%;
+    padding:15px;
+}
+.right{
+    /* border:solid #333C3F; */
+    width:60%;
+
+}
+.joinContainer{
+    border:solid black;
+    padding:.2em;
+     /* margin:1em; */
+    display: flex;
+    justify-content: space-between;
+    height:42vh;
+}
+.handlogo{
+    height:100%;
+    width:100%;
+}
+.nput{
+    width:80%;
+    margin:1em;
+    text-align:center;
+    font-family: cinzel;
+    font-size:12px;
+    border-radius:12px;
+    border-width:.2px;
+}
+.aboutVid{
+    width:100%;
+    height:100%;
+}
+.pictuh{
+    width:100%;
+}
+.mainLook{
+    width:100%;
+    height:100%;
+}
+
+.sectionContainer2{
+    /* height:62vh; */
+    background-size: contain;
+    padding:1em;
+    color:black;
+    /* margin:1em; */
+    background-image: url('/media/background.png');
+
+}
+
+.majorTitle{
+    font-family:abril fatface;
+    font-size:35px;
+}
+.textContainer{
+    width:70%;
+    /* border:solid black; */
+    height:100%;
+    text-align:center;
+    font-family: cinzel;
+}
+.arkeePic{
+    opacity:.3;
+    width:100%;
+    
+}
+.jtContainer{
+    border:solid black;
+    /* height:62vh; */
+    padding:3em;
+    background-image:url('https://papers.co/wallpaper/papers.co-vs23-paint-abstract-background-htc-dark-red-green-pattern-6-wallpaper.jpg');
+    display:flex;
+    
+}
+.jtBanner{
+    width:50%;
+    height:50%;
+}
+.jtVid{
+    border:solid yellow;
+    /* margin-left:10%; */
+    border-radius: 12px;
+
+}
+.lilkemetInfo{
+    padding:2em;
+    font-size:12px;
+}
+.carousel-item{
+    /* border:solid black; */
+    width:100%;
+}
+.readMore:hover{
+    background-color:green;
+    color:white;
+}
