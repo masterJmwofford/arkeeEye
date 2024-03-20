@@ -134,7 +134,9 @@ body {
     width: 60%;
 
 }
-
+.joinus{
+    width:100%;
+}
 .joinContainer {
     border: solid black;
     padding: .2em;
