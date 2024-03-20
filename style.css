@@ -29,7 +29,9 @@ body {
     background-size:cover;
 
 }
-
+.smTab{
+    font-size:12px;
+}
 .smNav {
     border: solid black;
     height: 42px;
@@ -58,12 +60,9 @@ body {
     width: 100%;
 }
 
-.sectionContainer {
-    border: solid black;
-}
 
 .selectBtn {
-    font-size: 18px;
+    font-size: 12px;
     font-family: abril fatface;
     padding-left: 10px;
     padding-right: 10px;
@@ -82,6 +81,7 @@ body {
     color: red;
     text-align: center;
     margin-top: 15px;
+    font-size:8px;
 }
 
 .motto2 {
@@ -89,6 +89,7 @@ body {
     color: green;
     text-align: center;
     margin-top: 15px;
+    font-size:8px;
 }
 
 .motto3 {
@@ -96,6 +97,7 @@ body {
     color: black;
     text-align: center;
     margin-top: 15px;
+    font-size:8px;
 }
 
 .exposeTitle {
@@ -155,12 +157,12 @@ background-size:cover;
 
 .nput {
     width: 80%;
-    margin: 1em;
     text-align: center;
     font-family: cinzel;
-    font-size: 12px;
+    font-size: 8px;
     border-radius: 12px;
     border-width: .2px;
+    margin-left:15px;
 }
 
 .aboutVid {
@@ -174,15 +176,15 @@ background-size:cover;
 
 .mainLook {
     width: 100%;
-    height: 100%;
 }
 
 .sectionContainer2 {
     /* padding: 2em; */
-    background-size: contain;
+    background-size: cover;
     color: black;
     /* margin:1em; */
     background-image: url('/media/background.png');
+
 
 }
 
@@ -195,7 +197,9 @@ background-size:cover;
     width: 70%;
     /* border:solid black; */
     height: 100%;
-    text-align: center;
+    /* text-align: center; */
+
+    margin-left:2%;
     font-family: cinzel;
 }
 
@@ -231,6 +235,7 @@ background-size:cover;
 .lilkemetInfo {
     padding: 2em;
     font-size: 12px;
+    /* text-align:center; */
 }
 
 .arial-kemet {
@@ -242,7 +247,10 @@ background-size:cover;
     width: 100%;
     height: 450px;
 }
+.readMore{
+    font-size:8px;
 
+}
 .readMore:hover {
     background-color: green;
     color: white;
@@ -271,7 +279,9 @@ background-size:cover;
 }
 
 .day {
+    border: solid red;
     font-family: cinzel;
+    font-size:8px;
     margin-top: 12%;
     text-align: center;
 }
@@ -290,15 +300,17 @@ background-size:cover;
     margin:1em;
     justify-content: space-between;
     font-family: cinzel;
+    font-size:15px;
 }
 
 .eventName {
     width: 50%;
-    text-align:left
+    font-size:15px;
 }
 
 .eDesc {
     /* border:solid black; */
+    font-size:12px;
 }
 .posterLook{
     width:100%;
