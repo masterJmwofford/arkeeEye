@@ -1,205 +1,326 @@
 @keyframes scroll {
-    0%{
+    0% {
         margin-left: -25%;
     }
-    50%{
-        margin-left:28%;
+
+    50% {
+        margin-left: 28%;
     }
-    100%{
+
+    100% {
         margin-left: -95%;
     }
 }
 
-body{
-    height:2200vh;
-    background-color:white;
+body {
+    height: 2200vh;
+    background-color: white;
     /* padding:10px; */
 }
 
-.mainNav{
-    border:solid black;
-    border-width:.2px;
-    width:100%;
-    align-items:center;
-    display:flex;
+.mainNav {
+    border: solid black;
+    border-width: .2px;
+    width: 100%;
+    align-items: center;
+    display: flex;
     justify-content: space-between;
+    background-image:url('/media/splatter.png');
+    background-size:cover;
+
 }
 
-.smNav{
-    border:solid black;
-    height:42px;
+.smNav {
+    border: solid black;
+    height: 42px;
     align-items: center;
-    border-width:.2px;
+    border-width: .2px;
     display: flex;
     justify-content: space-evenly;
-    
+
 }
-.mainVid{
-    border:double black;
-    border-width:10px;
+
+.mainVid {
+    border: double black;
+    border-width: 10px;
     /* margin-top:4em; */
 }
-.logo{
-    border:solid black;
-    height:50px;
-    width:80px;
+
+.logo {
+    border: solid black;
+    height: 50px;
+    width: 80px;
     /* margin-left:5%; */
-    
+
 }
-.mainSplash{
-    width:100%;
+
+.mainSplash {
+    width: 100%;
 }
-.sectionContainer{
-    border:solid black;
+
+.sectionContainer {
+    border: solid black;
 }
-.selectBtn{
-    font-size:18px;
-    font-family:abril fatface;
-    padding-left:10px;
-    padding-right:10px;
+
+.selectBtn {
+    font-size: 18px;
+    font-family: abril fatface;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.scrollMsg{
+
+.scrollMsg {
     /* animation: scroll 20s ease-in-out infinite; */
-   display: flex;
-   justify-content: space-around;
-    width:100%;
-  
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
 }
-.motto{
+
+.motto {
     font-family: cinzel;
-    color:red;
-    text-align:center;
-    margin-top:15px;
+    color: red;
+    text-align: center;
+    margin-top: 15px;
 }
-.motto2{
+
+.motto2 {
     font-family: cinzel;
-    color:green;
-    text-align:center;
-    margin-top:15px;
+    color: green;
+    text-align: center;
+    margin-top: 15px;
 }
-.motto3{
+
+.motto3 {
     font-family: cinzel;
-    color:black;
-    text-align:center;
-    margin-top:15px;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
 }
-.exposeTitle{
+
+.exposeTitle {
     font-family: cinzel;
-    text-align:center;
-    font-size:15px;
-    color:black;
+    text-align: center;
+    font-size: 15px;
+    color: black;
 }
-.bafIntro{
-    width:50%;
-    margin:1em;
+
+.bafIntro {
+    width: 50%;
+    margin: 1em;
     text-align: right;
 }
-.mantra{
-    width:100%;
-    margin:1em;
+
+.mantra {
+    width: 100%;
+    margin: 1em;
 }
-.mt1{
+
+.mt1 {
     font-family: Abril fatface;
     /* animation: bounce 1s ease-out infinite; */
     font-size: 47px;
     text-align: center;
 }
-.left{
+
+.left {
     /* border:solid grey; */
-    width:40%;
-    padding:15px;
+    width: 40%;
+    padding: 15px;
 }
-.right{
+
+.right {
     /* border:solid #333C3F; */
-    width:60%;
+    width: 60%;
 
 }
-.joinContainer{
-    border:solid black;
-    padding:.2em;
-     /* margin:1em; */
+
+.joinContainer {
+    border: solid black;
+    padding: .2em;
+    /* margin:1em; */
     display: flex;
     justify-content: space-between;
-    height:42vh;
-}
-.handlogo{
-    height:100%;
-    width:100%;
-}
-.nput{
-    width:80%;
-    margin:1em;
-    text-align:center;
-    font-family: cinzel;
-    font-size:12px;
-    border-radius:12px;
-    border-width:.2px;
-}
-.aboutVid{
-    width:100%;
-    height:100%;
-}
-.pictuh{
-    width:100%;
-}
-.mainLook{
-    width:100%;
-    height:100%;
+    /* height: 42vh; */
+    background-image:url('/media/splatter.png');
+background-size:cover;
 }
 
-.sectionContainer2{
-    /* height:62vh; */
+.handlogo {
+    height: 100%;
+    width: 100%;
+}
+
+.nput {
+    width: 80%;
+    margin: 1em;
+    text-align: center;
+    font-family: cinzel;
+    font-size: 12px;
+    border-radius: 12px;
+    border-width: .2px;
+}
+
+.aboutVid {
+    width: 100%;
+    height: 100%;
+}
+
+.pictuh {
+    width: 100%;
+}
+
+.mainLook {
+    width: 100%;
+    height: 100%;
+}
+
+.sectionContainer2 {
+    /* padding: 2em; */
     background-size: contain;
-    padding:1em;
-    color:black;
+    color: black;
     /* margin:1em; */
     background-image: url('/media/background.png');
 
 }
 
-.majorTitle{
-    font-family:abril fatface;
-    font-size:35px;
+.majorTitle {
+    font-family: abril fatface;
+    font-size: 35px;
 }
-.textContainer{
-    width:70%;
+
+.textContainer {
+    width: 70%;
     /* border:solid black; */
-    height:100%;
-    text-align:center;
+    height: 100%;
+    text-align: center;
     font-family: cinzel;
 }
-.arkeePic{
-    opacity:.3;
-    width:100%;
-    
+
+.arkeePic {
+    opacity: .3;
+    width: 100%;
+
 }
-.jtContainer{
-    border:solid black;
+
+.jtContainer {
+    border: solid black;
     /* height:62vh; */
-    padding:3em;
-    background-image:url('https://papers.co/wallpaper/papers.co-vs23-paint-abstract-background-htc-dark-red-green-pattern-6-wallpaper.jpg');
-    display:flex;
-    
+    /* padding:3em; */
+    background-image: url('https://papers.co/wallpaper/papers.co-vs23-paint-abstract-background-htc-dark-red-green-pattern-6-wallpaper.jpg');
+    background-size: cover;
+    display: flex;
+
 }
-.jtBanner{
-    width:50%;
-    height:50%;
+
+.jtBanner {
+    width: 50%;
+    height: 80%;
+    margin-top: 15%;
 }
-.jtVid{
-    border:solid yellow;
+
+.jtVid {
+    border: solid yellow;
     /* margin-left:10%; */
     border-radius: 12px;
 
 }
-.lilkemetInfo{
-    padding:2em;
-    font-size:12px;
+
+.lilkemetInfo {
+    padding: 2em;
+    font-size: 12px;
 }
-.carousel-item{
+
+.arial-kemet {
+    width: 100%;
+}
+
+.tse {
     /* border:solid black; */
-    width:100%;
+    width: 100%;
+    height: 450px;
 }
-.readMore:hover{
-    background-color:green;
-    color:white;
+
+.readMore:hover {
+    background-color: green;
+    color: white;
+}
+
+.believe {
+    width: 100%;
+    height:150px;
+}
+
+.topScreen {
+    border: solid black;
+    height: 42vh;
+    width: 60%;
+}
+
+.topDescrip {
+    /* border:solid blue; */
+    width: 30%;
+}
+
+.topContainer {
+    display: flex;
+    /* border: solid black; */
+    justify-content: space-around;
+}
+
+.day {
+    font-family: cinzel;
+    margin-top: 12%;
+    text-align: center;
+}
+
+.day:hover {
+    font-family: cinzel;
+    margin-top: 12%;
+    text-align: center;
+    -webkit-box-shadow: 2px 4px 23px 3px #741B0C;
+    box-shadow: 2px 4px 23px 3px #741B0C;
+}
+
+.eventLetter {
+    /* border: solid black; */
+    display: flex;
+    margin:1em;
+    justify-content: space-between;
+    font-family: cinzel;
+}
+
+.eventName {
+    width: 50%;
+    text-align:left
+}
+
+.eDesc {
+    /* border:solid black; */
+}
+.posterLook{
+    width:100%;
+    height:100%;
+}
+.seperator{
+    /* border:solid red; */
+    /* background-image:url('/media/splatter.png'); */
+    background-size:cover;
+    /* height:150px; */
+    text-align:right;
+    
+}
+.upTop{
+    margin-top:10%;
+    font-family: serif;
+    /* opacity:.3; */
+}
+.downtown{
+    font-family:PermanentMarker-Regular;
+    font-size:42px;
+    opacity:.8;
+    color:black;
+}
+.splatter{
+    
 }
