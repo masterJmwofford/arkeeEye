@@ -179,6 +179,7 @@ background-size:cover;
 }
 
 .sectionContainer2 {
+    border:solid green;
     /* padding: 2em; */
     background-size: cover;
     color: black;
@@ -279,7 +280,7 @@ background-size:cover;
 }
 
 .day {
-    border: solid red;
+    /* border: solid red; */
     font-family: cinzel;
     font-size:8px;
     margin-top: 12%;
@@ -287,9 +288,11 @@ background-size:cover;
 }
 
 .day:hover {
-    font-family: cinzel;
-    margin-top: 12%;
-    text-align: center;
+     /* border: solid red; */
+     font-family: cinzel;
+     font-size:8px;
+     margin-top: 12%;
+     text-align: center;
     -webkit-box-shadow: 2px 4px 23px 3px #741B0C;
     box-shadow: 2px 4px 23px 3px #741B0C;
 }
