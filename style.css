@@ -125,7 +125,7 @@ body {
 
 .right {
     /* border:solid #333C3F; */
-    width: 60%;
+    width: 50%;
 
 }
 .joinus{
@@ -167,8 +167,13 @@ background-size:cover;
 }
 
 .mainLook {
-    width: 100%;
-    height:23vh;
+    width: 80%;
+    border:solid black;
+    margin:1em;
+}
+.recruit{
+    width:100%;
+
 }
 .sectionContainer {
     border:solid grey;
@@ -177,6 +182,14 @@ background-size:cover;
     background-size: contain;
     color: black;
     /* margin:1em; */
+}
+button{
+    font-family: cinzel;
+}
+button:hover{
+    font-family: cinzel;
+    background-color: green;
+    color:white;
 }
 
 .sectionContainer2 {
