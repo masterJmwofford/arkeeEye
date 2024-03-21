@@ -69,27 +69,27 @@ body {
 }
 
 .motto {
-    font-family: cinzel;
+    font-family: abril fatface;
     color: red;
     text-align: center;
     margin-top: 15px;
-    font-size:12px;
+    font-size:15px;
 }
 
 .motto2 {
-    font-family: cinzel;
+    font-family: abril fatface;
     color: green;
     text-align: center;
     margin-top: 15px;
-    font-size:12px;
+    font-size:15px;
 }
 
 .motto3 {
-    font-family: cinzel;
+    font-family: abril fatface;
     color: black;
     text-align: center;
     margin-top: 15px;
-    font-size:12px;
+    font-size:15px;
 }
 
 .exposeTitle {
