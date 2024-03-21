@@ -276,7 +276,7 @@ button:hover{
 .topScreen {
     border: solid black;
     width: 60%;
-    height:300px;
+    /* height:300px; */
 }
 
 .topDescrip {
@@ -374,6 +374,16 @@ margin:1em;
     align-items: center;
 }
 .ourSolution{
-    border:solid red;
+    /* border:solid red; */
     /* display:flex; */
+}
+.rise{
+    font-family: Cinzel;
+    text-align:center;
+}
+.riseKing{
+    width:100%;
+}
+.blackface{
+    width:100%;
 }
