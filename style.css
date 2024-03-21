@@ -176,6 +176,7 @@ background-size:cover;
 
 .mainLook {
     width: 100%;
+    height:23vh;
 }
 
 .sectionContainer2 {
@@ -318,6 +319,7 @@ background-size:cover;
 .posterLook{
     width:100%;
     height:100%;
+    margin:1em;
 }
 .seperator{
     /* border:solid red; */
