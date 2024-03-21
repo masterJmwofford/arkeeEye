@@ -15,7 +15,7 @@
 body {
     height: 2200vh;
     background-color: white;
-    /* padding:10px; */
+    padding:10px;
 }
 .mainNav {
     border: solid black;
@@ -73,7 +73,7 @@ body {
     color: red;
     text-align: center;
     margin-top: 15px;
-    font-size:15px;
+    font-size:25=0px;
 }
 
 .motto2 {
@@ -81,7 +81,7 @@ body {
     color: green;
     text-align: center;
     margin-top: 15px;
-    font-size:15px;
+    font-size:25=0px;
 }
 
 .motto3 {
@@ -89,7 +89,7 @@ body {
     color: black;
     text-align: center;
     margin-top: 15px;
-    font-size:15px;
+    font-size:25=0px;
 }
 
 .exposeTitle {
@@ -107,7 +107,6 @@ body {
 
 .mantra {
     width: 100%;
-    margin: 1em;
 }
 
 .mt1 {
@@ -373,4 +372,8 @@ margin:1em;
     display:flex;
     justify-content: space-around;
     align-items: center;
+}
+.ourSolution{
+    border:solid red;
+    /* display:flex; */
 }
