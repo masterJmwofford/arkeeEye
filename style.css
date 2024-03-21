@@ -170,6 +170,14 @@ background-size:cover;
     width: 100%;
     height:23vh;
 }
+.sectionContainer {
+    border:solid green;
+    /* padding: 2em; */
+    background-image: url('/arkeeEye/media/background.png');
+    background-size: contain;
+    color: black;
+    /* margin:1em; */
+}
 
 .sectionContainer2 {
     border:solid green;
@@ -178,8 +186,6 @@ background-size:cover;
     color: black;
     /* margin:1em; */
     background-image: url('/media/background.png');
-
-
 }
 
 .majorTitle {
@@ -320,15 +326,17 @@ background-size:cover;
     /* height:150px; */
     text-align:right;
     
+    
 }
 .upTop{
     margin-top:10%;
     font-family: serif;
+    font-size:15px;
     /* opacity:.3; */
 }
 .downtown{
     font-family:PermanentMarker-Regular;
-    font-size:42px;
+    font-size:32px;
     opacity:.8;
     color:black;
 }
