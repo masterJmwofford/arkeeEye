@@ -171,8 +171,8 @@ background-size:cover;
     height:23vh;
 }
 .sectionContainer {
-    border:solid green;
-    /* padding: 2em; */
+    border:solid grey;
+    padding: 2em;
     background-image: url('/media/background.png');
     background-size: contain;
     color: black;
@@ -180,7 +180,7 @@ background-size:cover;
 }
 
 .sectionContainer2 {
-    border:solid green;
+    /* border:solid green; */
     /* padding: 2em; */
     background-size: cover;
     color: black;
@@ -194,12 +194,12 @@ background-size:cover;
 }
 
 .textContainer {
-    width: 70%;
+    width: 100%;
     /* border:solid black; */
     height: 100%;
     /* text-align: center; */
 
-    margin-left:2%;
+
     font-family: cinzel;
 }
 
@@ -235,11 +235,11 @@ background-size:cover;
 .lilkemetInfo {
     padding: 2em;
     font-size: 12px;
-    /* text-align:center; */
+    text-align:center;
 }
 
 .arial-kemet {
-    width: 100%;
+    width:100%;
 }
 
 .tse {
@@ -248,7 +248,7 @@ background-size:cover;
     height: 450px;
 }
 .readMore{
-    font-size:8px;
+    font-size:15px;
 
 }
 .readMore:hover {
@@ -283,7 +283,7 @@ background-size:cover;
 .day {
     /* border: solid red; */
     font-family: cinzel;
-    font-size:8px;
+    font-size:12px;
     margin-top:6%;
     text-align: center;
 }
@@ -291,7 +291,7 @@ background-size:cover;
 .day:hover {
    /* border: solid red; */
    font-family: cinzel;
-   font-size:8px;
+   font-size:14px;
    margin-top:6%;
    text-align: center;
     -webkit-box-shadow: 2px 4px 23px 3px #741B0C;
@@ -349,8 +349,15 @@ margin:1em;
 }
 .africaSm{
     width:100%;
+    height:100%;
 }
 .img_logo{
-    border:solid black;
-    height:40%
+    /* border:solid black; */
+    height:30%
+}
+.buttonGalore{
+    /* border:solid black; */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
 }
