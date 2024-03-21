@@ -17,7 +17,6 @@ body {
     background-color: white;
     /* padding:10px; */
 }
-
 .mainNav {
     border: solid black;
     border-width: .2px;
@@ -41,13 +40,11 @@ body {
     justify-content: space-evenly;
 
 }
-
 .mainVid {
     border: double black;
     border-width: 10px;
     /* margin-top:4em; */
 }
-
 .logo {
     border: solid black;
     height: 50px;
@@ -55,25 +52,20 @@ body {
     /* margin-left:5%; */
 
 }
-
 .mainSplash {
     width: 100%;
 }
-
-
 .selectBtn {
     font-size: 12px;
     font-family: abril fatface;
     padding-left: 10px;
     padding-right: 10px;
 }
-
 .scrollMsg {
-    /* animation: scroll 20s ease-in-out infinite; */
+    animation: scroll 20s ease-in-out infinite;
     display: flex;
     justify-content: space-around;
     width: 100%;
-
 }
 
 .motto {
@@ -81,7 +73,7 @@ body {
     color: red;
     text-align: center;
     margin-top: 15px;
-    font-size:8px;
+    font-size:12px;
 }
 
 .motto2 {
@@ -89,7 +81,7 @@ body {
     color: green;
     text-align: center;
     margin-top: 15px;
-    font-size:8px;
+    font-size:12px;
 }
 
 .motto3 {
@@ -97,7 +89,7 @@ body {
     color: black;
     text-align: center;
     margin-top: 15px;
-    font-size:8px;
+    font-size:12px;
 }
 
 .exposeTitle {
